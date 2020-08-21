@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestCaseConfig Ver="1.01">
+  <Common>
+    <PowerType paraPowerType="NORMAL" Type="OPTIONBOX" Options="NORMAL" Description="Power Supply Type" Category="" />
+    <PowerAddr paraPowerAddr="GPIB0::6::INSTR" Type="VISABOX" Options="" Description="Power Supply Address" Category="" />
+  </Common>
+  <TestCases Checked="true">
+    <TestInitialSys paraChecked="TRUE" paraVisible="FALSE" Description="This must be the first TestItem!" Category="" />
+    <TestAdd paraChecked="TRUE" paraAdd1="10.12345" paraAdd2="140" paraSum="2140" Description="Calculate Add1 + Add2" Category="ADD" />
+    <TestAdd paraChecked="TRUE" paraAdd1="200" paraAdd2="14" paraSum="214" Description="Calculate Add1 + Add2" Category="ADD" />
+    <TestDelay paraChecked="FALSE" paraDelayTime="1" Description="ms" Category="" />
+    <TestExitSys paraChecked="TRUE" paraVisible="FALSE" Description="This must be the last TestItem!" Category="" />
+  </TestCases>
+</TestCaseConfig>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestStoreConfig Checked="true">
+  <AddinsSettings Checked="true">
+    <CeaseLog Ver="1.0.0.0" Interface="ILog" Description="Log for TestUnit" Category="" />
+    <GpibPowerCtrl Ver="1.0.0.0" Interface="IPowerCtrl" Description="Gpib Power Supply" Category="" />
+  </AddinsSettings>
+  <START>
+    <LogEn paraLogEn="TRUE" Type="" Description="TRUE:Enable, FALSE:Disable" Category="" />
+    <LogPath paraLogPath="D:\TestLog\CeaseLog" Type="FOLDERBOX" Description="Dut Com" Category="" />
+    <TestCount paraTestCount="1" Type="" Description="Test count every time when Start button clicked" Category="" />
+  </START>
+</TestStoreConfig>
