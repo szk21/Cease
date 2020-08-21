@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cease.Addins.Log;
+using Cease.Interface.Log;
 
-namespace CEASE.Core
+namespace Cease.Core
 {
 
     public interface IFramework
@@ -14,7 +14,7 @@ namespace CEASE.Core
         /// </summary>
         /// <param name="configName">测试项目名称</param>
         /// <returns>返回执行结果</returns>
-        bool CreateTestEngine(string configName = "config.xml");
+        bool CreateTestEngine();
 
         /// <summary>
         /// Framework启动入口

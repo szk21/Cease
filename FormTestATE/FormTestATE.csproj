@@ -90,13 +90,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Framework\CEASE.csproj">
+    <ProjectReference Include="..\Framework\Cease.csproj">
       <Project>{ecabb16f-bb09-4a20-af94-989d201046a6}</Project>
-      <Name>CEASE</Name>
+      <Name>Cease</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Interfaces\Cease.Addins.Log\Cease.Addins.Log.csproj">
+    <ProjectReference Include="..\Interfaces\ILog\ILog.csproj">
       <Project>{ae8593da-ce77-4a41-ab05-e1cc64d579b7}</Project>
-      <Name>Cease.Addins.Log</Name>
+      <Name>ILog</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,15 +13,15 @@ using System.ComponentModel.Composition.Hosting;
 using System.Net;
 using System.Net.Sockets;
 
-using CEASE.Core;
-using CEASE.Test;
-using CEASE.Addin;
-using Cease.Addins.Log;
+using Cease.Core;
+using Cease.Test;
+using Cease.Addin;
+using Cease.Interface.Log;
 
 using log4net;
 using System.Threading;
 
-namespace CEASE.Core
+namespace Cease.Core
 {
     /// <summary>
     /// 测试驱动层
@@ -129,7 +129,7 @@ namespace CEASE.Core
         /// <param name="_strStation">测试工位</param>
         /// <param name="_strProductName">测试项目名称</param>
         /// <returns>返回执行结果</returns>
-        public bool CreateTestEngine(string configName = "config.xml")
+        public bool CreateTestEngine()
         {
             try
             {

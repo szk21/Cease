@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CEASE.Test.Root;
+using Cease.Test.Root;
 using System.IO;
 using System.Windows.Forms;
 
-namespace CEASE.Core
+namespace Cease.Core
 {
     public abstract class XmlBase
     {

@@ -5,10 +5,10 @@ using System.Text;
 
 using System.ComponentModel.Composition;
 
-using Cease.Addins.PowerCtrl;
-using Cease.Addins.Log;
+using Cease.Interface.PowerCtrl;
+using Cease.Interface.Log;
 
-namespace CEASE.Addin
+namespace Cease.Addin
 {
     /// <summary>
     /// 名称元数据接口

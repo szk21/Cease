@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 using log4net;
 
-namespace CEASE.Test.Root
+namespace Cease.Test.Root
 {
     public class TestCase
     {
         public TestUnit test;
         public Dictionary<string, string> para;
 
-        public TestCase(TestUnit t, Dictionary<string, string> p, CEASE.Addin.AddinStore a)
+        public TestCase(TestUnit t, Dictionary<string, string> p, Cease.Addin.AddinStore a)
         {
             test = t;
             para = p;

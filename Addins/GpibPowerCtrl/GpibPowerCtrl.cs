@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-using Cease.Addins.Log;
-using Cease.Addins.PowerCtrl;
+using Cease.Interface.Log;
+using Cease.Interface.PowerCtrl;
 using System.ComponentModel.Composition;
 using NationalInstruments.VisaNS;
 

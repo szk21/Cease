@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CEASE.Test.Root
+namespace Cease.Test.Root
 {
     /// <summary>
     /// 测试接口

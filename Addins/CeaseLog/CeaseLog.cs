@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 
 using System.ComponentModel.Composition;
-using Cease.Addins.Log;
+using Cease.Interface.Log;
 
 namespace CeaseLog
 {

@@ -9,9 +9,9 @@ using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Diagnostics;
 
-using CEASE.Addin;
-using CEASE.Test.Root;
-using CEASE.Core;
+using Cease.Addin;
+using Cease.Test.Root;
+using Cease.Core;
 
 using log4net;
 using System.Collections;
@@ -20,7 +20,7 @@ using System.Xml.Linq;
 using System.Xml.XPath;
 using System.IO;
 
-namespace CEASE.Test
+namespace Cease.Test
 {
     /// <summary>
     /// 导入的测试项全集

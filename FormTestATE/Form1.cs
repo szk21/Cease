@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using log4net;
-using CEASE.Core;
-using Cease.Addins.Log;
+using Cease.Core;
+using Cease.Interface.Log;
 
 namespace FormTestATE
 {

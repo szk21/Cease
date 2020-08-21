@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-using CEASE.Test.Root;
+using Cease.Test.Root;
 using System.ComponentModel.Composition;
 using System.Xml;
 using System.Xml.Linq;
@@ -18,15 +18,13 @@ using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using System.Net.NetworkInformation;
-using CEASE.Core;
+using Cease.Core;
 using System.Xml.XPath;
 using System.Net;
 using System.Net.Sockets;
 using System.Data.OleDb;
 using System.Data;
-using ICSharpCode.SharpZipLib;
-using ICSharpCode.SharpZipLib.Checksums;
-using ICSharpCode.SharpZipLib.Zip;
+
 namespace Cease.TestStore
 {
     #region Example
@@ -301,10 +299,6 @@ namespace Cease.TestStore
                 m_Addins.log.msg("Initial Log Success!");
             }
 
-            string Station = GetPara("Station","");
-            string Project = GetPara("Project","");
-
-
             //Clear sys para
             m_dicImpTestInfo.Clear();
             foreach (var key in m_dicImpTestInfo.Keys.ToArray().Where(key => key != "SYS_STAT"))
@@ -351,7 +345,6 @@ namespace Cease.TestStore
             //get test para
             string paraLogPath = GetPara("LogPath", "D:\\");
             string paraStation = GetPara("Station", "NO_STATION");
-            string paraProject = GetPara("Project", "NO_PROJECT");
 
             string paraRes = m_dicImpTestInfo.ContainsKey("TEST_RES") ? m_dicImpTestInfo["TEST_RES"] : "FAIL";
             bool bRes = paraRes.ToUpper() == "PASS" ? true : false;

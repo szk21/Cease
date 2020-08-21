@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using CEASE.Addin;
+using Cease.Addin;
 
-namespace CEASE.Test
+namespace Cease.Test
 {
     public interface ITestGlobalUnit
     {
